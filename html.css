@@ -1,0 +1,9 @@
+html
+{
+    margin:0px;
+    padding: 0px;
+    background: url(images/background2.jpg);
+    background-size:cover;
+    -o-background-size: cover;
+    background-attachment: fixed;
+}

@@ -1,0 +1,44 @@
+section article #hdc
+{
+    color: black;
+    font-size:  1.5em;
+    text-align: justify;
+    text-justify:inter-word;
+
+}
+section article #TITREdc
+{
+    color: black;
+    font-size: 1.5em;
+    border-bottom: 3px solid black;
+    padding-bottom: 2px;
+    padding: 1%;
+}
+section article #DATEmaj
+{
+    text-decoration: underline;
+    font-size:1.7em;
+
+}
+section article #NOUVEAUTEmaj
+{
+    color: #80091f;
+    text-decoration: underline;
+    font-size: 2.4em;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+section article #RUBRIQUEmaj
+{
+    display: flex;
+}
+section article #TEXTmaj
+{
+    color: #d11a1a;
+    margin-left: 25px;
+    font-size: 1.4em;
+}
+section article img
+{
+    border: 5px solid #80091f;
+}

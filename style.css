@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titilliumdisplay=swap');
+
+#bloc_page
+{
+    width: 88%;
+    margin: auto;
+}
+header
+{
+    background-color:salmon;
+    margin-top: 20px;
+    flex: 1.2;
+    position: relative;
+    box-shadow: 0px 2px 5px black;
+    border-radius: 20px;
+    color: black;
+    padding: 1%;
+    font-size: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-family: 'Lora', sans-serif;
+}
+header #titre_page
+{
+    align-items: center;
+    color: black;
+    padding-bottom: 3px;
+    border-bottom: 3px solid black;
+    
+}
+header a
+{
+    text-decoration: none;
+    color: #181818;
+    font-family: 'Lora', sans-serif;
+}
+header nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+header nav li
+{
+    margin-right: 15px;
+}
+header nav a 
+{
+    font-family: 'Lora', sans-serif;
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+header nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+header h1
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.2em;
+    margin: 0 0 0 10px;
+}
+header h2
+{
+    /*font-family:'Courier New', Courier, monospace; */
+    font-family: 'Lora', sans-serif;
+    font-size: 1.5em;
+    margin-top: 0px;
+    margin: 0 0 0 10px;
+}
+section
+{
+    background-color:floralwhite;
+    margin-top: 30px;
+    flex: 1.2;
+    position: relative;
+    box-shadow: 0px 2px 5px black;
+    border-radius: 15px;
+    color: black;
+    padding: 1%;
+}

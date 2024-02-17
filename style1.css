@@ -1,0 +1,46 @@
+section article #TITREdc
+{
+    color: black;
+    font-size: 1.5em;
+    padding-bottom: 2px;
+    border-bottom: 3px solid black;
+    margin-left: 1.3%;
+    text-align: center;
+}
+section article #hdc
+{
+    padding-left: 2%;
+    color: black;
+    font-size: 1.3em;
+    font-family: 'Lora', sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+}
+section article #redirection
+{
+    text-decoration: none;
+    color:crimson;
+}
+section article #photoProfil
+{
+    display: flex;
+    padding-bottom: 30px;
+    border-bottom: 3px solid black;
+}
+section article #photo_de_profil
+{
+    border-radius: 4%;
+}
+section article #Introduction
+{
+    font-family: 'Lora', sans-serif;
+}
+section article #Titre_texte_introductive
+{
+    font-size: 1.2em;
+}
+section article #Texte_introductive
+{
+    margin-left: 20px;
+    font-size: 1.25em;
+}

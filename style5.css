@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+section article #TITREdc
+{
+    color: black;
+    font-size: 1.6em;
+    
+    padding-bottom:1%;
+    border-bottom: 3px solid black;
+}
+section article #TEXTEdc
+{
+    padding-top: 2%;
+    color: black;
+    font-size: 1.4em;
+    font-family: 'Lora', sans-serif;
+}
+section article #TEXTEdc #type_de_contact
+{
+    padding-left: 2%;
+}
+form 
+{
+    max-width: 500px;
+    margin: 0 auto;
+}
+label 
+{
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"],
+input[type="email"],
+textarea 
+{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+input[type="submit"] 
+{
+    background-color:rgb(0, 2, 102);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+  
