@@ -1,0 +1,76 @@
+html{
+    background-color: #0a1628 !important;
+    height: 100%;
+    width: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0a1628;
+    font-family:monospace !important;
+    height: 100%;
+    width: 100%;
+}
+.fondFlou{
+    transition: 0.5s;
+    position: fixed;
+    backdrop-filter: blur(15px);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 55px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px 0px 20px;
+    font-size: 22px;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.2)!important;
+}
+#titreHeader{
+    margin: 0;
+    color: white;
+}
+.textNav{
+    text-decoration: none;
+    color: rgb(188, 188, 188);
+    transition: 0.2s;
+    text-shadow:1px 1px 2px rgba(0, 0, 0, 1);
+}
+
+.textNav:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: overline;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1000px;
+    padding-right: 15px;
+}
+section{
+    width: 100%;
+}
+footer{
+    font-family: monospace !important;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    padding-bottom: 40px !important;
+    padding-top: 40px;
+}
+header h2{
+    font-size: 100%;
+    font-weight: 400;
+}
+#ConteneurPageEnConstruction{
+    width: 100%;
+    height: 100%;
+}
+#titrePageEnConstruction{
+    text-align: center;
+    padding-top: 50vh;
+    color: white;
+}

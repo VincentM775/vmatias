@@ -1,0 +1,98 @@
+#section1{
+    background-image: url(contact/fond.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 65vh;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.7)!important;
+    position: relative;
+}
+.overlay{
+    transition: 0.5s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+#titrePage{
+    font-family: monospace !important;
+    transition: 0.5s;
+    position: absolute;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    z-index: 1;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+}
+header{
+    box-sizing: unset!important;
+}
+#titreExplicative{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+    padding-left: 50px;
+    z-index: 1;
+    transition: 1s;
+}
+#titreExplicative #titrePage{
+    z-index: 1;
+}
+#titreExplicative p{
+    font-size: 20px;
+}
+#section2{
+    margin-bottom: 50px;
+}
+section{
+    color: rgb(188, 188, 188);;
+}
+
+.titreRubrique{
+    color: white;
+    margin-top: 70px;
+    font-size: 45px;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+article{
+    color: white;
+}
+#section2 article{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+hr{
+    transition: 1s;
+    border: none;
+    margin: 70px auto auto auto !important;
+    width: 95%;
+    height: 1px !important;
+    background: white;
+}
+
+.CaseLabelInput{
+    display: flex;
+    flex-direction: column;
+}
+form{
+    font-family: monospace !important;
+    width: 50%;
+}
+.field label{
+    font-family: monospace !important;
+    color: white;
+}
+input::placeholder,textarea::placeholder{
+    color: rgba(0, 0, 0, 0.45)!important;
+}
+p{
+    font-size: 100%;
+    font-weight: 400;
+    font-family: monospace !important;
+}

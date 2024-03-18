@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta name="google-site-verification" content="44yDus8rfzvEHwkA6YrQR6Ja2Y2ntilaUrVatV0ZAnE" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vincent MATIAS - Étudiant 1ère année en BUT Informatique</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <script src="js.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("groWF8qH7ebbU_rR1");
+      })();
+    </script>
+</head>
+<body>
+    <script src="https://kit.fontawesome.com/99674c63ee.js" crossorigin="anonymous"></script>
+    <header class="fondFlou" id="top">
+        <h2><a class="textNav" href="/accueil.html" id="titreHeader">VMatias</a></h2>
+        <nav>
+              <a class="textNav" href="/accueil.html#competences">Compétences</a>
+              <a class="textNav" href="/accueil.html#projets">Projets</a>
+              <a class="textNav" href="/accueil.html#formations">Formations</a>
+              <a class="textNav" href="/accueil.html#experiences">Expériences</a>
+              <a class="textNav" href="/accueil.html#centreInteret">Centres d'intérêt</a>
+              <a class="textNav" href="/contact.html">Contact</a>
+
+        </nav>
+    </header>
+    <main>
+        <section id="section1" >
+            <div class="overlay"></div>
+            <div id="titreExplicative">
+                <h1 id="titrePage">Page de contact</h1>
+            </div>
+        </section>
+        <hr>
+        <section id="section2">
+            
+            <article>
+                <form id="monFormulaire">
+                    <h2 class="titreRubrique">Formulaire</h2>
+                    <div id="all_input">
+                        <div class="field" id="fieldNom">
+                            <label class="label">Nom et prénom :</label>
+                            <div class="control has-icons-left has-icons-right">
+                                <input name="nom" id="name" class="input is-danger" type="text" placeholder="Exemple : Matias"required>
+                                <span class="icon is-small is-left">
+                                    <i class="fas fa-user"></i>
+                                </span>
+                                <span class="icon is-small is-right">
+                                    <i class="fas fas fa-exclamation-triangle"></i>
+                                </span>
+                            </div>
+                            <p class="help is-danger">Ce champ est obligatoire</p>
+                        </div>
+                        
+                        <div class="field" id="fieldEmail">
+                            <label class="label">Email :</label>
+                            <div class="control has-icons-left has-icons-right">
+                                <input name="email" id="email" class="input is-danger" type="email" placeholder="Exemple : vincentmts77@gmail.com" required >
+                                <span class="icon is-small is-left">
+                                    <i class="fas fa-envelope"></i>
+                                </span>
+                                <span class="icon is-small is-right">
+                                    <i class="fas fa-exclamation-triangle"></i>
+                                </span>
+                            </div>
+                            <p class="help is-danger">Ce champ est obligatoire</p>
+                        </div>
+                        
+                        <div class="field" id="fieldSujet">
+                            <label class="label">Sujet :</label>
+                            <div class="control has-icons-left has-icons-right">
+                                <input name="sujet" id="subject" class="input is-danger" type="text" placeholder="Exemple : Recrutement alternance" required>
+                                <span class="icon is-small is-left">
+                                    <i class="fas fa-envelope"></i>
+                                </span>
+                                <span class="icon is-small is-right">
+                                    <i class="fas fa-exclamation-triangle"></i>
+                                </span>
+                            </div>
+                            <p class="help is-danger">Ce champ est obligatoire</p>
+                        </div>
+                        
+                        <div class="field" id="fieldMessage">
+                            <label class="label">Message :</label>
+                            <div class="control has-icons-left has-icons-right">
+                                <textarea name="message" id="message" class="textarea is-danger" 
+                                placeholder="Exemple : Bonjour, 
+Je suis recruteur et je suis intéresser par votre profil.
+Recontacter moi pour un entretient.
+Cordialement" required></textarea>
+                                
+                            </div>
+                            <p class="help is-danger">Ce champ est obligatoire</p>
+                        </div>
+
+                        <div class="field is-grouped">
+                            <div class="control">
+                                <button onclick="sendMail()" class="button is-link" type="submit" name="submit">Envoyer</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </article>
+        </section>
+        <hr>
+    </main>
+    <footer>
+        <p>Vincent Matias &copy 2024 - Tous droits réservés</p>
+    </footer>
+    <script src="js.js"></script>
+</body>
+</html>
