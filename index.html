@@ -13,17 +13,21 @@
 </head>
 <body>
     <header class="fondFlou" id="top">
-        <h2><a class="textNav" href="#top" id="titreHeader">VMatias</a></h2>
-        <nav>
-              <a class="textNav" href="#competences">Compétences</a>
-              <a class="textNav" href="#projets">Projets</a>
-              <a class="textNav" href="#formations">Formations</a>
-              <a class="textNav" href="#experiences">Expériences</a>
-              <a class="textNav" href="#centreInteret">Centres d'intérêt</a>
-              <a class="textNav" href="/contact.html">Contact</a>
-
+        <h2><a class="textNav" href="/accueil.html" id="titreHeader">VMatias</a></h2>
+        <input type="checkbox" id="toggleMenu">
+        <label id="buttonNav" for="toggleMenu">
+            <img src="Hamburger_icon._navpng.png" width="20px" alt="">
+        </label>
+        <nav id="menu">
+            <a class="textNav" href="#competences">Compétences</a>
+            <a class="textNav" href="#projets">Projets</a>
+            <a class="textNav" href="#formations">Formations</a>
+            <a class="textNav" href="#experiences">Expériences</a>
+            <a class="textNav" href="#centreInteret">Centres d'intérêt</a>
+            <a class="textNav" href="/contact.html">Contact</a>
         </nav>
     </header>
+    
     <main>
        
         <section id="section1" >
@@ -38,7 +42,7 @@
         <section id="section2">
             
             <article>
-                <div>
+                <div id="conteneurSection2">
                     <h2 class="titreRubrique">Je suis...</h2>
                     <p>
                         Passionné par l'informatique depuis mon enfance, j'ai découvert 
