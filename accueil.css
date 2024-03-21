@@ -24,7 +24,7 @@ h1{
     font-size: 20px;
 }
 #section2{
-    height: 100vh;
+       height: fit-content;
 }
 section{
     color: rgb(188, 188, 188);;
