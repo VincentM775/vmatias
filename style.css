@@ -74,3 +74,56 @@ header h2{
     padding-top: 50vh;
     color: white;
 }
+#buttonNav{
+    display: none;
+}
+#toggleMenu {
+    display: none;
+}
+.buttonNav{
+    display: none;
+}
+@media screen and (max-width: 1130px){
+    #buttonNav{
+        display: inline-block;
+        padding: 5px 8px;
+        font-size: 20px;
+        line-height: 1;
+        background-color: transparent;
+        border: 1px solid rgb(112, 112, 112);
+        border-radius:7px;
+        cursor: pointer;
+    }
+    #buttonnav:focus{
+        text-decoration: none;
+        outline: 0;
+        box-shadow: 0 0 0 2px;
+    }
+    nav{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: fit-content;
+    }
+   
+/* Masquer la case à cocher */
+#toggleMenu {
+    display: none;
+}
+
+/* Cacher le menu par défaut */
+#menu {
+    display: none;
+    
+}
+
+/* Afficher le menu lorsque la case à cocher est cochée */
+#toggleMenu:checked + #buttonNav + #menu {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+}
+
