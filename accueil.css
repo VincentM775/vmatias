@@ -2,6 +2,7 @@
     background-image: url(images/fondHeader.png);
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
     height: 100vh;
     color: white;
     
@@ -84,7 +85,6 @@ hr{
 }
 .box-competence p{
     font-size: 18px;
-    width: max-content;
 }
 /*------------projets,formations,experiences-------------*/
 .conteneur-box{
@@ -106,8 +106,8 @@ hr{
 }
 .imagebox{
     border-radius: 15px;
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 .titrebox{
@@ -178,8 +178,8 @@ hr{
 }
 .imagebox-centre-interet{
     border-radius: 15px;
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 .conteneur-box-centre-interet{
@@ -187,4 +187,98 @@ hr{
     grid-template-columns: repeat(4, minmax(0, 1fr));
     align-items: center;
 }
+.buttonNav{
+    display: none;
+}
 
+@media screen and (max-width: 1130px){
+    #conteneurSection2{
+        margin: 50px 50px 50px 50px;
+    }
+    #section2 article{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #section2 article p{
+        height: 350px;
+        width: 100%;
+        font-size: 15px;
+        text-align: justify;
+    }
+    #avatar{
+        margin-top: 50px;
+        width: 420px;
+        height: 350px;
+        box-shadow: 0px 0px 30px rgb(6, 214, 255);
+    }
+    .conteneur-box{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        justify-items: center;
+    }
+    .box{
+        width: 200px;
+        height: 200px;
+    }
+    .rubrique{
+        margin: 0px ;
+        
+    }
+    .titreRubrique{
+        text-align: center;
+    }
+    .conteneur-box-centre-interet{
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        align-items: center;
+    }
+    .box-centre-interet{
+        border-radius: 15px;
+        width: 130px;
+        height: 130px;    
+        box-shadow: 0px 0px 20px rgb(0, 0, 0);
+        position: relative;
+        background-color: rgba(0, 0, 0, 0);
+        margin: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+    #competences #conteneur-box-competences{
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+    #competences{
+        margin-top: 70vh;
+    }
+    .box-competence p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 320px){
+    #conteneurSection2{
+        margin: 50px 50px 50px 50px;
+    }
+    #section2 article{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        width: 100%;
+    }
+    #section2 article p {
+        /* height: 350px; */
+        width: 100%;
+        font-size: 15px;
+        text-align: justify;
+    }
+    #avatar{
+        margin-top: 50px;
+        width: 420px;
+        height: 350px;
+        box-shadow: 0px 0px 30px rgb(6, 214, 255);
+    }
+    #section2{
+        height: 100vh;
+    }
+}
